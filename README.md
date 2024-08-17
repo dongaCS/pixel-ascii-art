@@ -1,5 +1,7 @@
 # Pixel Ascii Art
-
+![HTML5](https://img.shields.io/badge/HTML5-%23e34c26?logo=html5&logoColor=white)
+![JS](https://img.shields.io/badge/JS-%23f7df1e?logo=javascript&logoColor=black)
+![p5*](https://img.shields.io/badge/p5*-FE019A?logo=p5.js)
 
 ## Setup
 - Install extension: [p5.vscode v1.2.16 by Sam Lavigne](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
