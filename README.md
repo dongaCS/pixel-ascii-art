@@ -51,3 +51,16 @@ function setup() {
 | --- | --- | --- | --- |
 | ![Fish.png](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/fish.png?raw=true) | ![Fish Pixel.png](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/sketch.png?raw=true) | ![Fish Pixel Gray.png](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/sketch-gray.png?raw=true) | ![Fish Ascii.png](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/sketch-ascii.png?raw=true) |
 | - | sketch.js | sketch-gray.js | sketch-ascii.js |
+
+---
+### Fish.gif
+| Base | Pixel |
+| --- | --- |
+| ![Fish.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/fish.gif?raw=true) | ![Fish Pixel.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/gif-sketch.png?raw=true) |
+| - | gif-sketch.js |
+
+| Pixel Grayscale | Ascii |
+| --- | --- |
+| ![Fish Pixel.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/gif-sketch-gray.png?raw=true) | ![Fish Pixel.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/gif-sketch-ascii.png?raw=true) |
+| gif-sketch-gray.js | gif-ascii.js |
+
