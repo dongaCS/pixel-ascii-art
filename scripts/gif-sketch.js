@@ -1,5 +1,5 @@
 let img;
-let pixelation_level = 13;
+let pixelation_level = 5;
 
 function preload() {
   img = loadImage("./images/fish.gif")

@@ -2,7 +2,7 @@
 const ascii = `$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,"^'. `
 
 let img;
-let pixelation_level = 13;
+let pixelation_level = 5;
 
 function preload() {
     img = loadImage("./images/fish.gif")
