@@ -33,7 +33,6 @@ function setup() {
       const densityMap = Math.floor(map(grayscale, 0, 255, ascii.length, 0))
       
       fill(255);
-      textSize('w'); // large words
       text(ascii.charAt(densityMap), x * w , y * h) // draws letter on canvas
     }
   }

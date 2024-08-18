@@ -22,7 +22,7 @@ function setup() {
       let b = pixels[i + 2];
       let grayscale = (r + g + b) / 3
 
-      fill(grayscale) // pixels with colors
+      fill(grayscale) // pixels with grayscale
       square(x, y, pixelation_level); // sets the pixels to be squares
     }
   }

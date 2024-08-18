@@ -24,7 +24,6 @@ function draw() {
 
     img.loadPixels(); // loads pixel array for image
 
-
     // looking at brightness of pixels 
     for (let y = 0; y < img.height; y += pixelation_level) {
         for (let x = 0; x < img.width; x += pixelation_level) {
@@ -33,13 +32,12 @@ function draw() {
             let r = img.pixels[i + 0];
             let g = img.pixels[i + 1];
             let b = img.pixels[i + 2];
-            let gray = (r + g + b) / 3 // gray scale 
+            let grayscale = (r + g + b) / 3 // gray scale 
 
             // maps gray to ascii gray
-            const densityMap = Math.floor(map(gray, 0, 255, ascii.length, 0))
+            const densityMap = Math.floor(map(grayscale, 0, 255, ascii.length, 0))
 
             fill(255); 
-            textSize('w'); // large words
             textAlign(CENTER, CENTER);
             text(ascii.charAt(densityMap), x * w , y * h)
         }
