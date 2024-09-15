@@ -66,3 +66,14 @@ function setup() {
 | ![Fish Pixel.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/gif-sketch-gray.png?raw=true) | ![Fish Pixel.gif](https://github.com/dongaCS/pixel-ascii-art/blob/main/images/gif-sketch-ascii.png?raw=true) |
 | gif-sketch-gray.js | gif-ascii.js |
 
+NOTE: currently gif runs fine in browser, however the saveGif function on the documents is not working for this instance. The function only saves a single frame for X seconds. No solution found other than to use saveFrame to generate 50+ png and stitch them together to make a gif. **Place at bottom of .js**. 
+
+$WARNING:$ will generate MANY files.
+```JS
+// saveFrames(filename, extension, duration, framerate, [callback])
+function keyPressed() {
+  if (key === 's') {
+    saveFrames('frame', 'png', 1, 5);
+  }
+}
+```
